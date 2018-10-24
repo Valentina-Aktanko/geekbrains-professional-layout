@@ -210,7 +210,7 @@ body {
     background-color: #ffffff;
     color: #222222;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.45px;
     text-decoration: none;
@@ -232,4 +232,9 @@ body {
     color: #f16d7f;
     font-size: 30px;
     letter-spacing: 0.75px;
+}
+
+.text {
+    display: flex;
+    align-content: center;
 }
