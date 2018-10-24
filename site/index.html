@@ -3,13 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            
+        <div class="container header-flex">
+        <div class="header-left">
+            <a class="logo" href="#">
+                <img class="logo-img" src="img/logo.png" alt="logo">BRAN<span class="logo-d">D</span>
+            </a>
+            <form class="header-form" action="#">
+                <div class="browse">browse</div>
+                <input type="text" placeholder="Search for Item...">
+                <button type="submit">0</button>
+            </form>    
         </div>
-    </header>    
+        <div class="header-right">
+           <img class="cart-img" src="img/cart.svg" alt="cart" width="32" height="29">
+           <a class="button" href="#">My Account</a>       
+        </div>    
+        </div>
+    </header>
+    <nav class="nav">
+        <div class="container">
+            <ul class="menu">
+                <li class="menu-list"><a class="menu-link" href="#">Home</a></li>
+                <li class="menu-list"><a class="menu-link" href="#">Man</a></li>
+                <li class="menu-list"><a class="menu-link" href="#">Women</a></li>
+                <li class="menu-list"><a class="menu-link" href="#">Kids</a></li>
+                <li class="menu-list"><a class="menu-link" href="#">Accoseriese</a></li>
+                <li class="menu-list"><a class="menu-link" href="#">Featured</a></li>
+                <li class="menu-list"><a class="menu-link" href="#">Hot Deals</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="banner">
+        <div class="container banner-back">
+            <div class="banner-text">
+                <p class="the-brand">THE BRAND</p>
+                <p class="fashion">OF LUXERIOUS <span class="fashion-span">FASHION</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="product-categories">
+        <div class="container">
+            <ul class="categories">
+                <li class="category-list for-men">
+                    <a class="category-link" href="#">hot&nbsp;deal <span class="category-span">for&nbsp;men</span></a>
+                </li>
+                <li class="category-list accesories">
+                    <a class="category-link" href="#">luxirous&nbsp;&&nbsp;trendy <span class="category-span">accesories</span></a>
+                </li>
+                <li class="category-list women">
+                    <a class="category-link" href="#">30%&nbsp;offer <span class="category-span">women</span></a>
+                </li>
+                <li class="category-list for-kids">
+                    <a class="category-link" href="#">new&nbsp;arrivals <span class="category-span">for&nbsp;kids</span></a>
+                </li>
+            </ul>    
+       
+          
+        </div>
+    </div>
 </body>
 </html>
