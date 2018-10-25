@@ -111,13 +111,17 @@ body {
     font-size: 15px;
     font-weight: 400;
     text-decoration: none;
-    letter-spacing: 0.38px;  
+    letter-spacing: 0.38px;
 }
 .menu-list {
     list-style-type: none;
     display: flex;
     height: 51px;
     justify-content: center;
+}
+
+.menu-item:hover {
+    border-bottom: 3px solid #ef5b70;
 }
 
 .menu-link {
@@ -330,14 +334,14 @@ body {
 }
 
 .prod-btn {
+    display: block;
+    text-align: center;
+    width: 212px;
     height: 48px;
-/*    line-height: 38px;*/
-/*    padding: 0 24px;*/
-    
+    line-height: 48px;
     margin: 60px auto;
     font-size: 16px;
     font-weight: 700;
-/*    width: 212px;*/
+    text-align: center;
+    letter-spacing: 0.4px;
 }
-
-
