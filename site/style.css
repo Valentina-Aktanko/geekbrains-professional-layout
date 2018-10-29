@@ -179,6 +179,19 @@ body {
     text-decoration: none;
     letter-spacing: 0.38px;
 }
+
+.button:hover {
+    border-radius: 3px;
+    outline: 1px solid #ef5b70;
+    background-color: #ffffff;  
+    color: #ef5b70;
+}
+
+.button:active {
+    color: #4a4a4a;
+    outline: 1px solid #eaeaea;
+} 
+
 .menu-list {
     list-style-type: none;
     display: flex;
@@ -309,12 +322,18 @@ body {
     align-content: center;
 }
 
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 113px;
+}
+
 .heading-items {
     color: #222222;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.75px;
-    text-align: center;
     margin: 0;
     margin-bottom: 16px;
 }
@@ -324,7 +343,6 @@ body {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.35px;
-    text-align: center;
     margin-bottom: 0;
 }
 
@@ -350,7 +368,7 @@ body {
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product {
+.product-link {
     display: block;
     text-decoration: none;
 }
@@ -408,4 +426,14 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 63px;
+    margin-bottom: 40px;
+}
+
+
+
+.btn-product {
+    padding-left: 24px;
+    padding-right: 24px;
+    height: 48px;
+    line-height: 48px;
 }
