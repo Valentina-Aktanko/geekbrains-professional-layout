@@ -123,12 +123,187 @@
         </div>    
     </section>
     <section class="catalog-flex container">
-        <nav class="catalog-menu">
+        <nav class="catalog-menu-box">
             <h3 class = "catalog-menu-heading">Category</h3>
-             
+            <ul class="catalog-menu-list">
+                <li><a href="#" class="catalog-menu-link">Accessories</a></li>
+                <li><a href="#" class="catalog-menu-link">Bags</a></li>
+                <li><a href="#" class="catalog-menu-link">Denim</a></li>
+                <li><a href="#" class="catalog-menu-link">Hoodies &amp; Sweatshirts</a></li>
+                <li><a href="#" class="catalog-menu-link">Jackets &amp; Coats</a></li>
+                <li><a href="#" class="catalog-menu-link">Pants</a></li>
+                <li><a href="#" class="catalog-menu-link">Polos</a></li>
+                <li><a href="#" class="catalog-menu-link">Shirts</a></li>
+                <li><a href="#" class="catalog-menu-link">Shoes</a></li>
+                <li><a href="#" class="catalog-menu-link">Shorts</a></li>
+                <li><a href="#" class="catalog-menu-link">Sweaters &amp; Knits</a></li>
+                <li><a href="#" class="catalog-menu-link">T-Shirts</a></li>
+                <li><a href="#" class="catalog-menu-link">Tanks</a></li>
+            </ul>
+            <h3 class = "catalog-menu-heading">BRAND</h3>
+            <h3 class = "catalog-menu-heading">dESIGNER</h3>             
         </nav>
         <div class="catalog-box">
-          456  
+            <div class="filter">
+                <div class="top-filter">
+                    <form action="#" class="form-filter">
+                        <h3 class="top-filter-heading">Trending now</h3>
+                        <div class="top-filter-text">
+                            <p>
+                                <span class="filter-text-span">Bohemian</span>
+                                <span class="filter-text-span">Floral</span>
+                                <span class="filter-text-span">Lace</span></p>
+                            <p>
+                                <span class="filter-text-span">Floral</span>
+                                <span class="filter-text-span">Lace</span>
+                                <span class="filter-text-span">Bohemian</span>
+                            </p>
+                        </div>
+                    </form>
+                    <form action="#" class="form-filter">
+                        <h3 class="top-filter-heading">Size </h3>
+                        <div class="checkbox-box">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="xxs" class="filter-checkbox">
+                                <label for="xxs" class="filter-label">XXS</label>    
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="xs" class="filter-checkbox">
+                                <label for="xs" class="filter-label">XS</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="s" class="filter-checkbox">
+                                <label for="s" class="filter-label">S</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="m" class="filter-checkbox">
+                                <label for="m" class="filter-label">m</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="l" class="filter-checkbox">
+                                <label for="l" class="filter-label">l</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="xl" class="filter-checkbox">
+                                <label for="xl" class="filter-label">Xl</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="xxl" class="filter-checkbox">
+                                <label for="xxl" class="filter-label">XXl</label>
+                            </div>
+                        </div>
+                    </form>
+                    <form action="#" class="form-filter"  onsubmit="return false" oninput="count.value = price.valueAsNumber">
+                        <h3 class="top-filter-heading">pRICE</h3>
+                        <input class="filter-range" type="range" name="price" id="price" min="0" max="400" step="1" value="52">
+                        <output for="flpriceying" name="count"></output>
+                    </form> 
+                    
+                    
+                </div>
+                <div class="bottom-filter">
+                    <form action="" class="form-sort">
+                        тут будет sort by name
+                    </form>
+                </div>
+            </div>    
+            <div class="catalog-products">
+                <div class="box-product container">
+                    <div class="cat-item-product">
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-1.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cat-item-product">
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-2.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="cat-item-product"> 
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-3.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="cat-item-product">
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-4.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="cat-item-product">
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-5.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>    
+                    <div class="cat-item-product">
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-6.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cat-item-product">
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-7.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cat-item-product">                   
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-8.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cat-item-product"> 
+                        <a href="#" class="product-link">
+                            <img class="product-img" src="img/c-prod-9.jpg" alt="product-image">
+                            <div class="product-text">
+                                <p class="product-name c-prod-name">Mango People T-shirt</p>
+                                <p class="product-price">$52.00</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="pagination">
+                <ul class="pagination-list">
+                    <li> <a class="pagination-link" href="#">1</a></li>
+                    <li> <a class="pagination-link" href="#">2</a></li>
+                    <li> <a class="pagination-link" href="#">3</a></li>
+                    <li> <a class="pagination-link" href="#">4</a></li>
+                    <li> <a class="pagination-link" href="#">5</a></li>
+                    <li> <a class="pagination-link" href="#">6</a></li>
+                    <li> <a class="pagination-link" href="#">...</a></li>
+                    <li> <a class="pagination-link" href="#">20</a></li>
+                </ul>
+            </nav>
         </div>
     </section>
     
