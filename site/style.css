@@ -823,12 +823,12 @@ body {
 }
 
 .catalog-menu {
-    height: 243px;
+    width: 243px;
     margin-right: 50px;
 }
 
 .catalog-box {
-    height: 848px;
+    width: 848px;
 }
 
 .catalog-menu-heading {
