@@ -126,35 +126,37 @@
         </div>
     </section>
     <section class="single-product">
-        <div class="single-product-img">
+        <div class="sp-img">
             <img src="img/single-product.jpg" alt="single product photo" width="597" height="724">
         </div>
-        <div class="single-product-empty"></div>
-        <div class="single-product-description container">
-            <div class="single-product-description-headingBox">
-                <h3 class="single-product-description-heading">WOMEN COLLECTION</h3>
-                <div class="single-product-description-heading-border"></div>
+        <div class="sp-empty"></div>
+        <div class="sp-desc container">
+            <div class="sp-desc-headingBox">
+                <h3 class="sp-desc-heading">WOMEN COLLECTION</h3>
+                <div class="sp-desc-heading-border"></div>
             </div>
-            <p class="single-product-description-name">MOSCHINO CHEAP AND CHIC</p>
-            <p class="single-product-description-text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
-            <div class="single-product-description-material">
-                <p class="single-product-description-material-left"><span class="single-product-description-material-span">material: </span>cotton</p>
-                <p><span  class="single-product-description-material-span">designer: </span>binburhan</p>
+            <p class="sp-desc-name">MOSCHINO CHEAP AND CHIC</p>
+            <p class="sp-desc-text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
+            <div class="sp-desc-material">
+                <p class="sp-desc-material-left"><span class="sp-desc-material-span">material: </span>cotton</p>
+                <p><span  class="sp-desc-material-span">designer: </span>binburhan</p>
             </div>
-            <p class="single-product-description-price">561</p>
-            <div class="single-product-description-box">
-                <form action="#" class="single-product-description-setForm">
-                    <div class="single-product-description-set">
-                        <label class="single-product-description-set-label" for="setColor">Choose color</label>
-                        <select name="setColor" id="setColor" class="single-product-description-input">
-                            <option value="black">Black</option>
-                            <option value="grey">Grey</option>
-                            <option value="red" selected>Red</option>
-                        </select>
+            <p class="sp-desc-price">561</p>
+            <div class="sp-desc-box">
+                <form action="#" class="sp-desc-setForm">
+                    <div class="sp-desc-set">
+                        <label class="sp-desc-set-label" for="setColor">Choose color</label>
+                        <div class="div-select">
+                            <select name="setColor" id="setColor" class="sp-desc-set-select sp-select sp-select-color">
+                                <option value="black">Black</option>
+                                <option value="grey">Grey</option>
+                                <option value="red" selected>Red</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="single-product-description-set">
-                        <label class="single-product-description-set-label" for="setSize">Choose size</label>
-                        <select name="setSize" id="setSize" class="single-product-description-input">
+                    <div class="sp-desc-set">
+                        <label class="sp-desc-set-label" for="setSize">Choose size</label>
+                        <select name="setSize" id="setSize" class="sp-desc-set-select sp-select">
                             <option value="ХXХS">ХXХS</option>
                             <option value="ХS">ХS</option>
                             <option value="S">S</option>
@@ -165,17 +167,53 @@
                             <option value="XХXL">XХXL</option>
                         </select>
                     </div>
-                    <div class="single-product-description-set">
-                        <label class="single-product-description-set-label" for="setQuantity">Quantity</label>
-                        <input type="text" name="setQuantity" id="setQuantity" class="single-product-description-input">
+                    <div class="sp-desc-set">
+                        <label class="sp-desc-set-label" for="setQuantity">Quantity</label>
+                        <input type="text" name="setQuantity" id="setQuantity" class="sp-desc-set-input">
                     </div>
                 </form>
                 <a href="#" class="button button-sp-addToCard">Add to Cart</a>
             </div>
-            
-
         </div>
     </section>
+    <section class="box-product container">
+        <h3>You may like also</h3>
+        <div class="cat-item-product">
+            <a href="product.html" class="product-link">
+                <img class="product-img" src="img/sp-prod-1.jpg" alt="product-image" width="261" height="280">
+                <div class="product-text">
+                    <p class="product-name c-prod-name">Blaze Leggings</p>
+                    <p class="product-price">$52.00</p>
+                </div>
+            </a>
+        </div>
+        <div class="cat-item-product">
+            <a href="product.html" class="product-link">
+                <img class="product-img" src="img/sp-prod-2.jpg" alt="product-image" width="261" height="280"">
+                <div class="product-text">
+                    <p class="product-name c-prod-name">Alexa Sweater</p>
+                    <p class="product-price">$52.00</p>
+                </div>
+            </a>
+        </div>
+        <div class="cat-item-product">
+            <a href="product.html" class="product-link">
+                <img class="product-img" src="img/sp-prod-3.jpg" alt="product-image" width="261" height="280"">
+                <div class="product-text">
+                    <p class="product-name c-prod-name">Agnes Top</p>
+                    <p class="product-price">$52.00</p>
+                </div>
+            </a>
+        </div>
+        <div class="cat-item-product">
+            <a href="product.html" class="product-link">
+                <img class="product-img" src="img/sp-prod-4.jpg" alt="product-image" width="261" height="280"">
+                <div class="product-text">
+                    <p class="product-name c-prod-name">Sylva Sweater</p>
+                    <p class="product-price">$52.00</p>
+                </div>
+            </a>
+        </div>
     <section class="subscribe-review">
         <div class="subscribe-review-box container">
             <div class="review-wrapper">
