@@ -1,4 +1,9 @@
 @import "vars"
+@mixin placeholder
+  ::-webkit-input-placeholder
+    @content
+  ::-moz-placeholder
+    @content
 
 body
   font-family: 'Lato', sans-serif
@@ -12,7 +17,33 @@ body
 
 @import "header"
 
+.gold-stars
+  color: #e4af48
+  font-weight: 400
+  text-transform: uppercase
+  &_drop-cart
+    font-size: 12px
+  &_product-rate
+    font-size: 15px
 
+.header__gold-stars
+  margin-bottom: 12px
+
+.logo
+  display: flex
+  align-items: center
+  color: #222
+  font-size: 27px
+  text-decoration: none
+  text-transform: uppercase
+
+.logo-img
+  margin-right: 13px
+
+.logo-d
+  color: $main-color
+  font-weight: 400
+  margin-right: 37px
 
 .nav
   background-color: #ffffff
