@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Single Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet">
+    <title>Checkout</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+</head>
 <body>
 <header class="header">
     <div class="container header-flex">
@@ -68,6 +66,7 @@
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
                                 <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
                                 <i class="fas fa-star-half-alt"></i>
                             </p>
                             <p class="drop-cart-count">1
@@ -105,6 +104,7 @@
             </div>
             <a class="button button_myAccount header__button" href="#">My Account</a>
         </div>
+    </div>
 </header>
 <nav class="nav">
     <div class="container">
@@ -164,7 +164,7 @@
         </ul>
     </div>
 </nav>
-<section class="breadcrumb breadcrumb-single">
+<section class="breadcrumb">
     <div class="breadcrumb-flex container">
         <h3 class="breadcrumb-heading">New Arrivals</h3>
         <ul class="breadcrumb-list">
@@ -174,100 +174,8 @@
         </ul>
     </div>
 </section>
-<section class="single-product">
-    <div class="sp-img">
-        <img src="img/single-product.jpg" alt="single product photo" width="597" height="724">
-    </div>
-    <div class="sp-empty"></div>
-    <div class="sp-desc container">
-        <div class="sp-desc-headingBox">
-            <h3 class="sp-desc-heading">WOMEN COLLECTION</h3>
-            <div class="sp-desc-heading-border"></div>
-        </div>
-        <p class="sp-desc-name">MOSCHINO CHEAP AND CHIC</p>
-        <p class="sp-desc-text">Compellingly actualize fully researched processes before proactive outsourcing.
-            Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
-            parallel core competencies rather than exceptional portals.</p>
-        <div class="sp-desc-material">
-            <p class="sp-desc-material-left"><span class="sp-desc-material-span">material: </span>cotton</p>
-            <p><span class="sp-desc-material-span">designer: </span>binburhan</p>
-        </div>
-        <p class="sp-desc-price beforePrice">561</p>
-        <div class="sp-desc-box">
-            <form action="#" class="sp-desc-setForm">
-                <div class="sp-desc-set">
-                    <label class="sp-desc-set-label" for="setColor">Choose color</label>
-                    <div class="div-select">
-                        <select name="setColor" id="setColor" class="sp-desc-set-select sp-select sp-select-color">
-                            <option value="black">Black</option>
-                            <option value="grey">Grey</option>
-                            <option value="red" selected>Red</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="sp-desc-set">
-                    <label class="sp-desc-set-label" for="setSize">Choose size</label>
-                    <select name="setSize" id="setSize" class="sp-desc-set-select sp-select">
-                        <option value="ХXХS">ХXХS</option>
-                        <option value="ХS">ХS</option>
-                        <option value="S">S</option>
-                        <option value="M">M</option>
-                        <option value="L">L</option>
-                        <option value="XL">XL</option>
-                        <option value="XXL" selected>XXL</option>
-                        <option value="XХXL">XХXL</option>
-                    </select>
-                </div>
-                <div class="sp-desc-set">
-                    <label class="sp-desc-set-label" for="setQuantity">Quantity</label>
-                    <input type="text" name="setQuantity" id="setQuantity" class="sp-desc-set-input">
-                </div>
-            </form>
-            <a href="#" class="button button_addToCard">Add to Cart</a>
-        </div>
-    </div>
-</section>
-<section class="sp-single-product container">
-    <h3 class="sp-single-product-heading">You may like also</h3>
-    <div class="box-product">
-        <div class="cat-item-product">
-            <a href="product.html" class="product-link">
-                <img class="product-img" src="img/sp-prod-1.jpg" alt="product-image" width="261" height="280">
-                <div class="product-text">
-                    <p class="product-name c-prod-name">Blaze Leggings</p>
-                    <p class="product-price beforePrice">52.00</p>
-                </div>
-            </a>
-        </div>
-        <div class="cat-item-product">
-            <a href="product.html" class="product-link">
-                <img class="product-img" src="img/sp-prod-2.jpg" alt="product-image" width="261" height="280"">
-                <div class="product-text">
-                    <p class="product-name c-prod-name">Alexa Sweater</p>
-                    <p class="product-price beforePrice">52.00</p>
-                </div>
-            </a>
-        </div>
-        <div class="cat-item-product">
-            <a href="product.html" class="product-link">
-                <img class="product-img" src="img/sp-prod-3.jpg" alt="product-image" width="261" height="280"">
-                <div class="product-text">
-                    <p class="product-name c-prod-name">Agnes Top</p>
-                    <p class="product-price beforePrice">52.00</p>
-                </div>
-            </a>
-        </div>
-        <div class="cat-item-product">
-            <a href="product.html" class="product-link">
-                <img class="product-img" src="img/sp-prod-4.jpg" alt="product-image" width="261" height="280"">
-                <div class="product-text">
-                    <p class="product-name c-prod-name">Sylva Sweater</p>
-                    <p class="product-price beforePrice">52.00</p>
-                </div>
-            </a>
-        </div>
-    </div>
-</section>
+
+
 <section class="subscribe-review">
     <div class="subscribe-review-box container">
         <div class="review-wrapper">
@@ -351,5 +259,4 @@
     </div>
 </footer>
 </body>
-
 </html>
